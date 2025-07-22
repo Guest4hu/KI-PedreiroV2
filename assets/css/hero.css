@@ -13,8 +13,9 @@
     align-items: center;
     padding: 10px 20px;
     position: absolute;
-    bottom: 0;
-    background-color: black;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to top, black, transparent);
+    bottom: 0px;
     width: 100%;
     color: white;
     gap: 30px;
@@ -32,6 +33,7 @@
 }
 
 .botao_orcamento:hover{
+    transition: 200ms;
     background-color: darkorange;
     color: white;
 }
